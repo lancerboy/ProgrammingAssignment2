@@ -25,7 +25,7 @@ makeCacheMatrix <- function(x = matrix()) {
 # if the matrix has not changed 
 # If both conditions are TRUE, it returns the cached data
 # If either condition is not TRUE, it solves for the matrix provided
-# AND saves the new matrix as the base comparison matri
+# AND saves the new matrix as the base comparison matrix
 
 cacheSolve <- function(x = matrix(), ...) {
     ## Return a matrix that is the inverse of 'x'
